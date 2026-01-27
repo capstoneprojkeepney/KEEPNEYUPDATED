@@ -59,7 +59,6 @@ geocoder.on('result', async (e) => {
     5. Estimate how congested the jeep will be based on the stops it got through.
     5. Be playful with the response if possible.
     6. If the place is not passable near any terminal or stops, say that the site is still expanding and only has limited data for now
-    7. Make a notice that the fare is just the estimated fare and less 2 pesos if student, pwd, or senior.
     `;
 
     const response = await askGemini(prompt);
