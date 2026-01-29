@@ -5,6 +5,8 @@ const mapData = {
             "color": "#00FF00",
             "address": "Balagtas Town Proper, Bulacan",
             "coords": [120.87697719441377, 14.795355389964158],
+            "schedule": "4am to 9pm",
+            "contact no.":  "09213403738",
             "stops": [
                 {
                     "name": "Camella, Matungao Bulacan",
@@ -33,6 +35,8 @@ const mapData = {
             "color": "#0000FF",
             "address": "Santa Maria Public Market, Bulacan",
             "coords": [120.9601031451145, 14.821741376892621],
+            "schedule": "4:30am to 9pm",
+            "contact no.":  "09255479764",
             "stops": [
                 {
                     "name": "Waltermart Santa Maria",
@@ -61,6 +65,7 @@ const mapData = {
             "color": "#FF00FF",
             "address": "DiviMart Mapulang Lupa, Pandi, Bulacan",
             "coords": [120.96651838106227, 14.887536127914496],
+            "contact no.":  "09205673702",
             "stops": [
                 {
                     "name": "DiviMart Bunsuran 1st Pandi",
@@ -89,6 +94,8 @@ const mapData = {
             "color": "#00FFFF",
             "address": "MacArthur Highway, Balagtas, Bulacan",
             "coords": [120.90552137088271, 14.819485830855873],
+            "schedule": "4am to 9pm",
+            "contact no.":  "09337074987",
             "stops": [
                 {
                     "name": "Ad Santiago's Oil Station",
@@ -117,6 +124,8 @@ const mapData = {
             "color": "#FFFF00",
             "address": "Cacarong Matanda Jeepney Terminal, Pandi, Bulacan",
             "coords": [120.96784512496296, 14.907323801744086],
+            "schedule": "4am to 8pm",
+            "contact no.":  "09100295586",
             "stops": [
                 {
                     "name": "Amana Waterpark",
@@ -145,6 +154,8 @@ const mapData = {
             "color": "#FF8000",
             "address": "Cacarong Matanda Jeepney Terminal, Pandi, Bulacan",
             "coords": [120.96783116251679, 14.907170502691777],
+            "schedule": "5am to 8pm",
+            "contact no.":  "09391915923",
             "stops": [
                 {
                     "name": "Alfamart Real De Cacarong",
@@ -171,8 +182,10 @@ const mapData = {
         {
             "name": "Plaridel Mall to Capitol",
             "color": "#800080",
-            "address": "Plaride lMall Terminal, Bulacan",
+            "address": "Plaridel Mall Terminal, Bulacan",
             "coords": [120.86734314200028, 14.886773647201547],
+            "schedule": "5am to 10pm",
+            "contact no.":  "09358284321",
             "stops": [
                 {
                     "name": "Meralco Plaridel Sector",
@@ -199,8 +212,10 @@ const mapData = {
         {
             "name": "Plaridel to San Ildefonso",
             "color": "#008080",
-            "address": "Plaridel Mall Terminal Cagayan Valley Rd, Plaridel, Bulacan",
+            "address": "Cagayan Valley Rd, Plaridel, Bulacan",
             "coords": [120.86733736935493, 14.886793274217546],
+            "schedule": "4:30am to 9pm"
+            "contact no.":  "09442716548",
             "stops": [
                 {
                     "name": "Primark Center Plaridel",
@@ -273,7 +288,139 @@ const mapData = {
                     "coords": [120.94146977666458, 15.105046444665886]
                 }
             ]
+        },
+        {
+            "name": "Meycauayan to Sto. Niño",
+            "color": "#754238",
+            "address": "Meycauayan - Sto. Niño Jeepney Terminal",
+            "coords": [120.96174348641283, 14.737521474310656],
+            "schedule": "4am to 10:30pm"
+            "contact no.": "09636612645"
+            "stops": [
+                {
+                    "name": "Jollibee - Malhacan Meycauayan",
+                    "fare": "₱11.00",
+                    "coords": [120.97096101164449, 14.743732274995946]
+                },
+                {     
+                    "name": "Meycauayan City Common Terminal",
+                    "fare": "₱15.00",
+                    "coords": [120.97360036723364, 14.749130289621721]
+                },
+                {
+                    "name": "Puregold Jr. - Camalig",
+                    "fare": "₱17.00",
+                    "coords": [120.98857776981934, 14.773081474456044]
+                },
+                {
+                    "name": "Ema Town (End)",
+                    "fare": "₱20.00",
+                    "coords": [120.98857776981934, 14.773081474456044]
+                }
+            ]
+        },
+        {
+            "name": "Marilao to SJDM",
+            "color": "#A86942",
+            "address": "Fortune Market & Transport Terminal",
+            "coords": [120.94848941534217, 14.762376058317827],
+            "schedule": "4am to 9pm"
+            "contact no.":  "09235204472",
+            "stops": [
+                {
+                    "name": "Beverly Homes Subdivision Prenza",
+                    "fare": "₱14.00",
+                    "coords": [120.99167822883554, 14.784008639019964]
+                },
+                {
+                    "name": "Bigbrew Florida Villas",
+                    "fare": "₱18.00",
+                    "coords": [121.02102328257651, 14.794020837045265]
+                },
+                {
+                    "name": "McDonald's Muzon SJDM",
+                    "fare": "₱20.00",
+                    "coords": [121.03308325189217, 14.801096105483925]
+                },
+                {
+                    "name": "Colegio de San Jose del Monte",
+                    "fare": "₱25.00",
+                    "coords": [121.04663839607004, 14.80951519983655]
+                },   
+                {
+                    "name": "318 Moment Cafe (End)",
+                    "fare": "₱31.00",
+                    "coords": [121.04358535374126, 14.815474495837341]
+                }
+            ]
+        },
+        {
+            "name": "SJDM to SM Tungkong Mangga",
+            "color": "#337D33",
+            "address": "Nana Milia Commercial Building, San Ignacio St, Poblacion, SJDM, 3023 Bulacan",
+            "coords": [121.04356636723463, 14.815453279383286],
+            "schedule": "3am to 9pm"
+            "contact no.":  "none",
+            "stops": [
+                {
+                    "name": "Robinsons Easymart Poblacion San Jose del Monte, Bulacan",
+                    "fare": "₱11.00",
+                    "coords": [121.0480230960701, 14.809294499984649]
+                },
+                {
+                    "name": "EcoOil Gas Station - San Francisco Eco Oil SJDM",
+                    "fare": "₱14.00",
+                    "coords": [121.04999025189218, 14.809608837596755]
+                },
+                {
+                    "name": "Villa Maris Garden Resort",
+                    "fare": "₱15.00",
+                    "coords": [121.0543016095633, 14.810656471457493]
+                },
+                {
+                    "name": "Alfamart - Francisco Homes Narra",
+                    "fare": "₱16.00",
+                    "coords": [121.06268267297612, 14.810275756217257]
+                },
+                {
+                    "name": "SM City San Jose del Monte (End)",
+                    "fare": "₱19.00",
+                    "coords": [121.07509832490545, 14.786367236002814]
+                }
+            ]
+        },
+        {
+            "name": "Crossing Bocaue Flyover to Santa Maria Terminal",
+            "color": "#E3F467",
+            "address": "Dunkin Bocaue Mcarthur",
+            "coords": [120.92905949125662, 14.797339535289574],
+            "schedule": "4:30am to 10pm",
+            "contact no.":  "09484955481",
+            "stops": [
+                {
+                    "name": "Kaps Tapsi Bocaue Branch F Halili National Rd, Bocaue, 3018 Bulacan",
+                    "fare": "₱11.00",
+                    "coords": [120.92936550450722, 14.797557089592209]
+                },
+                {
+                    "name": "Turo Brgy Hall - Bocaue Bulacan",
+                    "fare": "₱14.00",
+                    "coords": [120.92936550450722, 14.797557089592209]
+                },
+                {
+                    "name": "Shakey's Pizza Parlor RW7X+8CQ, Bypass Road, Santa Maria, Bulacan",
+                    "fare": "₱19.00",
+                    "coords": [120.94862182490566, 14.813623708550354]
+                },
+                {
+                    "name": "Waltermart Sta. Maria (End)",
+                    "fare": "₱25.00",
+                    "coords": [120.95376152490584, 14.822735847347076]
+                }
+            ]
         }
+                    
     ]
 
 };
+
