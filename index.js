@@ -37,6 +37,9 @@ geocoder.on('result', async (e) => {
     const Ai_container = document.getElementById('Ai_feedback');
     Ai_container.innerHTML = "<em>Analyzing route accessibility...</em>";
 
+    Ai_container.style.display = 'block';
+    Ai_container.style.opacity = '.9';
+
     const data = e.result;
     const coords = data.center; 
     const placeName = data.place_name;
@@ -62,7 +65,15 @@ geocoder.on('result', async (e) => {
     `;
 
     const response = await askGemini(prompt);
-    Ai_container.innerHTML = response;
+    
+    Ai_container.style.display = 'grid';
+    Ai_container.innerHTML = `<button id="hide_feedback">x</button>
+    <p id="feedback_content">${response}</p>`
+
+    document.getElementById('hide_feedback').addEventListener('click', () => {
+        Ai_container.style.opacity = '0';
+        setTimeout(() => Ai_container.style.display = 'none', 300);
+    });
 });
 
 // Display Map
@@ -131,13 +142,18 @@ mapData.Terminals.forEach(terminal => {
     const stopsHTML = terminal.stops.map(stop => `
         <div class="stop-item">
             <p>name: ${stop.name}</p>
-            <p>fare: ${stop.fare}</p>
+            <p>estimated fare: ${stop.fare}</p>
         </div>
     `).join(''); 
 
     const terminalHTML = `
         <div class="terminal-wrapper" style="border-left: 5px solid ${terminal.color};">
             <h3>${terminal.name}</h3>
+            <h5>Where: ${terminal.address}</h5>
+            <h5>Schedule: ${terminal.schedule}</h5>
+            <h5>Contact No: ${terminal.contact_no}</h5>
+            <h5>Stops:</h5>
+            <br>
             ${stopsHTML}
         </div>
     `;
@@ -153,7 +169,7 @@ function createTerminalPopupContent(terminalData) {
             <img src="https://picsum.photos/200">
             <p>Address: ${terminalData.address}</p>
             <p>Terminal name: ${terminalData.name}</p>
-            <p>General Stop count: ${terminalData.stops.length}</p>
+            <p>Stops count: ${terminalData.stops.length}</p>
         </div>
     `;
 }
@@ -163,7 +179,7 @@ function createStopPopupContent(stopData) {
         <div class="stopPopup">
             <img src="https://picsum.photos/200">
             <p>name: ${stopData.name}</p>
-            <p>fare: ${stopData.fare}</p>
+            <p>estimated fare: ${stopData.fare}</p>
         </div>
     `;
 }
@@ -181,6 +197,8 @@ function setupUI() {
             setTimeout(() => routesLayer.style.display = 'none', 300);
         }
     });
+
+    
 }
 
 setupUI();

@@ -6,7 +6,7 @@ const mapData = {
             "address": "Balagtas Town Proper, Bulacan",
             "coords": [120.87697719441377, 14.795355389964158],
             "schedule": "4am to 9pm",
-            "contact no.":  "09213403738",
+            "contact_no":  "09213403738",
             "stops": [
                 {
                     "name": "Camella, Matungao Bulacan",
@@ -36,7 +36,7 @@ const mapData = {
             "address": "Santa Maria Public Market, Bulacan",
             "coords": [120.9601031451145, 14.821741376892621],
             "schedule": "4:30am to 9pm",
-            "contact no.":  "09255479764",
+            "contact_no":  "09255479764",
             "stops": [
                 {
                     "name": "Waltermart Santa Maria",
@@ -65,7 +65,7 @@ const mapData = {
             "color": "#FF00FF",
             "address": "DiviMart Mapulang Lupa, Pandi, Bulacan",
             "coords": [120.96651838106227, 14.887536127914496],
-            "contact no.":  "09205673702",
+            "contact_no":  "09205673702",
             "stops": [
                 {
                     "name": "DiviMart Bunsuran 1st Pandi",
@@ -95,7 +95,7 @@ const mapData = {
             "address": "MacArthur Highway, Balagtas, Bulacan",
             "coords": [120.90552137088271, 14.819485830855873],
             "schedule": "4am to 9pm",
-            "contact no.":  "09337074987",
+            "contact_no":  "09337074987",
             "stops": [
                 {
                     "name": "Ad Santiago's Oil Station",
@@ -125,7 +125,7 @@ const mapData = {
             "address": "Cacarong Matanda Jeepney Terminal, Pandi, Bulacan",
             "coords": [120.96784512496296, 14.907323801744086],
             "schedule": "4am to 8pm",
-            "contact no.":  "09100295586",
+            "contact_no":  "09100295586",
             "stops": [
                 {
                     "name": "Amana Waterpark",
@@ -155,7 +155,7 @@ const mapData = {
             "address": "Cacarong Matanda Jeepney Terminal, Pandi, Bulacan",
             "coords": [120.96783116251679, 14.907170502691777],
             "schedule": "5am to 8pm",
-            "contact no.":  "09391915923",
+            "contact_no":  "09391915923",
             "stops": [
                 {
                     "name": "Alfamart Real De Cacarong",
@@ -185,7 +185,7 @@ const mapData = {
             "address": "Plaridel Mall Terminal, Bulacan",
             "coords": [120.86734314200028, 14.886773647201547],
             "schedule": "5am to 10pm",
-            "contact no.":  "09358284321",
+            "contact_no":  "09358284321",
             "stops": [
                 {
                     "name": "Meralco Plaridel Sector",
@@ -214,8 +214,8 @@ const mapData = {
             "color": "#008080",
             "address": "Cagayan Valley Rd, Plaridel, Bulacan",
             "coords": [120.86733736935493, 14.886793274217546],
-            "schedule": "4:30am to 9pm"
-            "contact no.":  "09442716548",
+            "schedule": "4:30am to 9pm",
+            "contact_no":  "09442716548",
             "stops": [
                 {
                     "name": "Primark Center Plaridel",
@@ -294,8 +294,8 @@ const mapData = {
             "color": "#754238",
             "address": "Meycauayan - Sto. Niño Jeepney Terminal",
             "coords": [120.96174348641283, 14.737521474310656],
-            "schedule": "4am to 10:30pm"
-            "contact no.": "09636612645"
+            "schedule": "4am to 10:30pm",
+            "contact_no": "09636612645",
             "stops": [
                 {
                     "name": "Jollibee - Malhacan Meycauayan",
@@ -324,8 +324,8 @@ const mapData = {
             "color": "#A86942",
             "address": "Fortune Market & Transport Terminal",
             "coords": [120.94848941534217, 14.762376058317827],
-            "schedule": "4am to 9pm"
-            "contact no.":  "09235204472",
+            "schedule": "4am to 9pm",
+            "contact_no":  "09235204472",
             "stops": [
                 {
                     "name": "Beverly Homes Subdivision Prenza",
@@ -359,8 +359,8 @@ const mapData = {
             "color": "#337D33",
             "address": "Nana Milia Commercial Building, San Ignacio St, Poblacion, SJDM, 3023 Bulacan",
             "coords": [121.04356636723463, 14.815453279383286],
-            "schedule": "3am to 9pm"
-            "contact no.":  "none",
+            "schedule": "3am to 9pm",
+            "contact_no":  "none",
             "stops": [
                 {
                     "name": "Robinsons Easymart Poblacion San Jose del Monte, Bulacan",
@@ -395,7 +395,7 @@ const mapData = {
             "address": "Dunkin Bocaue Mcarthur",
             "coords": [120.92905949125662, 14.797339535289574],
             "schedule": "4:30am to 10pm",
-            "contact no.":  "09484955481",
+            "contact_no":  "09484955481",
             "stops": [
                 {
                     "name": "Kaps Tapsi Bocaue Branch F Halili National Rd, Bocaue, 3018 Bulacan",
@@ -423,4 +423,3 @@ const mapData = {
     ]
 
 };
-

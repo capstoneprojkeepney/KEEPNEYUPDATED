@@ -30,14 +30,35 @@ body {
         height: 50%;
         width: 90%;
         background-color: #ccc;
-        pointer-events: none; 
+        pointer-events: auto; 
         border-radius: 8px;
         padding: 10px;
 
         white-space: pre-wrap; 
         overflow-y: auto; 
         font-family: monospace; /* Optional: Fits your 'dev/terminal' theme */
+
+        display: none;
+        transition: opacity 0.3s ease;
+        grid-template-columns: 4vh auto 4vh;
+        grid-template-rows: 4vh auto 4vh;
+        justify-items: center;
+        align-items: center;
+
     }
+        #hide_feedback {
+            grid-area: 1 / 3 / 2 / 4;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #feedback_content {
+            grid-area: 2 / 2 / -2 / -2;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+        }
 
     #Allroutes {
         pointer-events: auto;
@@ -96,7 +117,8 @@ body {
         margin-bottom: 20px;
     }
 
-    .terminal-wrapper h3, 
+    .terminal-wrapper h3,
+    .terminal-wrapper h5,
     .terminal-wrapper p { 
         padding: 0px;
         margin: 0px;

@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyDwQfJoRxIhP-5DZD54x9vXxOwShLKRisI";
+const API_KEY = "AIzaSyAc7cCen9r3u5ehSaEXgqTOs8DLgVw_0hA";
 
 async function askGemini(prompt) {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${API_KEY}`;
